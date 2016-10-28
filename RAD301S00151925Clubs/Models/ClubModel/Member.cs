@@ -13,7 +13,7 @@ namespace RAD301S00151925Clubs.Models.ClubModel
         [Key, Column(Order = 1)]
         public Guid memberID { get; set; }
         [Key, Column(Order = 2)]
-        public Guid StudentID { get; set; }
+        public string StudentID { get; set; }
         public bool approved { get; set; }
     }
 }

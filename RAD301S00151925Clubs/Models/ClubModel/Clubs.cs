@@ -15,6 +15,8 @@ namespace RAD301S00151925Clubs.Models.ClubModel
         public int ClubId { get; set; }
         public string ClubName { get; set; }
 
+        public string StudentID;
+
         [Column(TypeName = "date")]
         public DateTime CreationDate { get; set; }
 
