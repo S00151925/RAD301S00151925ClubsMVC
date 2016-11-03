@@ -189,6 +189,7 @@
     <Compile Include="Models\ClubModel\ClubModeldbContext.cs" />
     <Compile Include="Models\ClubModel\Clubs.cs" />
     <Compile Include="Models\ClubModel\Member.cs" />
+    <Compile Include="Models\ClubModel\Student.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -252,6 +253,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Migrations\StudentMigrations\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
