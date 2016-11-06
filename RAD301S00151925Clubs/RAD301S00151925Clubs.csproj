@@ -182,6 +182,10 @@
     <Compile Include="Migrations\ClubMigrations\201610280852034_ClubBuild.Designer.cs">
       <DependentUpon>201610280852034_ClubBuild.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\ClubMigrations\201611061739496_StudentMigration.cs" />
+    <Compile Include="Migrations\ClubMigrations\201611061739496_StudentMigration.Designer.cs">
+      <DependentUpon>201611061739496_StudentMigration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\ClubMigrations\Configuration.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -204,6 +208,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\S00151925WebApp - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\S00151925WebApp - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -269,6 +275,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\ClubMigrations\201610280852034_ClubBuild.resx">
       <DependentUpon>201610280852034_ClubBuild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\ClubMigrations\201611061739496_StudentMigration.resx">
+      <DependentUpon>201611061739496_StudentMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
